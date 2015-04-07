@@ -1,0 +1,3 @@
+[submodule "Strength.js"]
+	path = Strength.js
+	url = https://github.com/aarondo/Strength.js.git
