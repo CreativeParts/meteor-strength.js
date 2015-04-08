@@ -12,6 +12,16 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.1.0.2');
+
+  //JQuery required by Stength.js library, so let's load it...
+  api.use('jquery@1.7.2', 'client');
+
+  //Add Stength.js files....
+  api.addFiles([
+    'Strength.js/src/strength.js',
+    'Strength.js/src/strength.css'
+    ], ['client']);
+  
   api.addFiles('meteorstrengthjs.js');
 });
 
