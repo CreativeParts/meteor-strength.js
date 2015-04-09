@@ -15,7 +15,7 @@ The password secuirty indicator is marked on 4 scores. These are
 
 ##### Install meteor-strength.js package
 
-     meteor add meteor-strength.js
+     meteor add mahmoudkm:meteorstrengthjs
 
 ##### Create a password input field
 
