@@ -26,6 +26,7 @@ Package.onUse(function(api) {
 });
 
 Package.onTest(function(api) {
+  // api.use('tinytest', 'test-helpers');  
   api.use('tinytest');
   api.use('mahmoudkm:meteorstrengthjs');
   api.addFiles('meteorstrengthjs-tests.js');

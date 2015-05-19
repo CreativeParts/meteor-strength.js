@@ -44,3 +44,50 @@ If you want to initiate the plugin with options then you can do so like:
 			            strengthButtonTextToggle: 'Hide Password'
 			 });
 	};
+
+
+#### ..:: Options
+
+<table>
+							<thead>
+								<tr>
+									<th>Variable</th>
+									<th>Default Value</th>
+									<th>Description</th>
+									<th>Valid Options</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>strengthClass</td>
+									<td>strength</td>
+									<td>The CSS class that you want your input field to have</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td>strengthMeterClass</td>
+									<td>strength_meter</td>
+									<td>The CSS class that you want your input field to have</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td>strengthButtonClass</td>
+									<td>button_strength</td>
+									<td>The CSS class that you want the toggle button to have</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td>strengthButtonText</td>
+									<td>Show Password</td>
+									<td>The text that you want to show for the toggle button</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td>strengthButtonTextToggle</td>
+									<td>Hide Password</td>
+									<td>The toggled text that you want to show for the toggle button</td>
+									<td></td>
+								</tr>
+
+							</tbody>
+						</table>
